@@ -22,6 +22,7 @@
 - Spacing
 - Utilities
 - Clearing
+- Icon Fonts Buttons Fix
 - Media Queries
 */
 
@@ -223,6 +224,12 @@ input[type="button"].button-primary:focus {
   border-color: #1EAEDB; }
 
 
+
+button.btn-small, .button.btn-small {
+  height: 20px;
+  line-height: 20px;
+  padding: 0 15px;
+}
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 input[type="email"],
@@ -390,6 +397,20 @@ hr {
   content: "";
   display: table;
   clear: both; }
+
+/* Icon Fonts:
+Fix line height for many font icons on buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Materils Icons */
+.button .material-icons, button .material-icons,
+.button.material-icons, button.material-icons {line-height: 38px;}
+.btn-small.material-icons {
+  height: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  text-transform: none !important;
+}
+
 
 
 /* Media Queries

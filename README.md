@@ -3,6 +3,12 @@ Skeleton is a simple, responsive boilerplate to kickstart any responsive project
 
 Check out <http://getskeleton.com> for documentation and details.
 
+## About this fork
+
+I create this fork for add some features, but alleays keep simple. See ROADMAP.md for more information
+
+At the moment all changes for v3 is pull under v3 branch. It's is a developer branch and it's provably have many issues
+
 ## Getting started
 
 There are a couple ways to download Skeleton:
@@ -65,4 +71,4 @@ Skeleton was built using [Sublime Text 3](http://www.sublimetext.com/3) and desi
 
 ## Acknowledgement
 
-Skeleton was created by [Dave Gamache](https://twitter.com/dhg) for a better web.
+Skeleton was created originaly by [Dave Gamache](https://twitter.com/dhg) for a better web.
